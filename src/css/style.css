@@ -1,0 +1,91 @@
+@font-face {
+  font-family: jk-font-regular;
+  src: url(../fonts/JF-Flat-regular.eot);
+  src: url(../fonts/JF-Flat-regular.eot?#iefix) format(embedded-opentype),
+    url("../fonts/JF-Flat-regular.svg#jk-font-regular") format("svg"),
+    url(../fonts/JF-Flat-regular.woff) format(woff),
+    url(../fonts/JF-Flat-regular.ttf) format(truetype);
+  font-weight: bolder;
+  font-style: normal;
+}
+body {
+  font-family: jk-font-regular, "Segoi UI", sans-serif;
+    line-height: 1.5;
+  font-size: 14px;
+  color: black;
+}
+.custom-navbar {
+  border-bottom: 3px solid #d6d6d6;
+  width: 100%;
+  padding: 15px 0;
+  background-color: #fff;
+}
+.__custom_formControl,
+nav .container form .dropdown .custom__nav_link__btn {
+  border: 1px solid #ebebeb;
+  box-shadow: none !important;
+  border-radius: 5px;
+  color: #868686;
+  padding: 6px 16px 7px;
+  transition: all 0.5s ease-in-out;
+}
+.custom__nav_link__btn:focus{
+    color: #ff3956 !important;
+}
+.__custom_formControl:focus{
+    border-color: #b9001b;
+    box-shadow: 0 0 2px 0 #b9001b;}
+nav .container form .dropdown .custom__nav_link__btn:hover {
+  background-color: #e7e7e7;
+  border: 1px solid #8c8c8c;
+  color: #ff3956;
+}
+.__custom_dropdown_menu{
+    border: 0;
+    box-shadow: #9b9b9b 0px 10px 20px  ;
+}
+form .search-btn{
+    background-color: #ff3956;
+    border: 0 !important;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    height: 38px;
+    width: 65px;
+    border-radius: 0;
+    transition: all .5s ease;
+    padding: 6px 16px 7px;
+}
+form .search-btn:hover,
+form .search-btn:active:hover,
+form .search-btn:focus,
+form .search-btn:active:focus{
+    background-color: #c2101e;
+    color: #a0a0a0;
+}
+.nav-link{
+    color: #555555;
+    padding: 15px;
+}
+.custom-navbar ul li.active a.nav-link{
+    color: #ff3956;
+    border-bottom: 1px solid #ff3956;
+}
+.custom-navbar ul li:hover a.nav-link {
+    color: #ff3956 !important;
+    background-color: #e0e0e0;
+    border-bottom: 1px solid #ff3956 !important;
+    
+}
+nav ul li.nav-item.dropdown a.nav-link:hover , nav ul li.nav-item.dropdown a.nav-link ~ ul li:hover a.dropdown-item{
+    background-color: #fcd1d6;
+}
+nav ul li.nav-item a.nav-link.cart-icon{
+    border: 0;
+    color: #555555;
+    padding:0  15px;
+    outline: none;
+    box-shadow: none;
+    padding: 15px 25px;
+    border-radius: 0;
+}
