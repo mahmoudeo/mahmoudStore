@@ -8,6 +8,8 @@ module.exports = {
     mode: 'development',
     entry: {
         webSite: "./src/index.js"
+    }, stats: {
+        children: true,
     },
     output: {
         path: path.resolve(__dirname, 'dist'),

@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
-    "server-web": "webpack serve --mode development"
+    "server-web": "webpack serve --mode development --stats-children"
   },
   "keywords": [
     "webpack",
@@ -19,6 +19,7 @@
     "css-loader": "^6.7.3",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.9.1",
     "rtlcss-loader": "^1.0.3",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1",
