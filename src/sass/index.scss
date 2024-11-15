@@ -1,0 +1,7 @@
+@use "./variables";
+@use "./nesting";
+.add-to-cart-btn {
+    color: variables.$brand-primary;
+    background: variables.$brand-primary-bg;
+    font-weight: 700;
+  }
